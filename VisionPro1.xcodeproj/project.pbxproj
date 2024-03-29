@@ -14,6 +14,9 @@
 		C58428FF2BB47BF400C23B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58428FE2BB47BF400C23B2B /* Assets.xcassets */; };
 		C58429022BB47BF400C23B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58429012BB47BF400C23B2B /* Preview Assets.xcassets */; };
 		C584290D2BB47BF400C23B2B /* VisionPro1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584290C2BB47BF400C23B2B /* VisionPro1Tests.swift */; };
+		C58429172BB4C2B900C23B2B /* revmo_captions_cta_added (720p).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C58429162BB4C2B800C23B2B /* revmo_captions_cta_added (720p).mp4 */; };
+		C58429192BB4C2E700C23B2B /* revmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58429182BB4C2E700C23B2B /* revmo.jpg */; };
+		C584291B2BB4C8E200C23B2B /* O_logo_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C584291A2BB4C8E200C23B2B /* O_logo_1024x1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		C58429032BB47BF400C23B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C58429082BB47BF400C23B2B /* VisionPro1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPro1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C584290C2BB47BF400C23B2B /* VisionPro1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPro1Tests.swift; sourceTree = "<group>"; };
+		C58429162BB4C2B800C23B2B /* revmo_captions_cta_added (720p).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "revmo_captions_cta_added (720p).mp4"; sourceTree = "<group>"; };
+		C58429182BB4C2E700C23B2B /* revmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = revmo.jpg; sourceTree = "<group>"; };
+		C584291A2BB4C8E200C23B2B /* O_logo_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O_logo_1024x1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				C58428F42BB47BF200C23B2B /* Packages */,
 				C584290B2BB47BF400C23B2B /* VisionPro1Tests */,
 				C58428F22BB47BF200C23B2B /* Products */,
+				C584291D2BB72E1000C23B2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +91,9 @@
 				C58428FA2BB47BF200C23B2B /* ContentView.swift */,
 				C58428FC2BB47BF200C23B2B /* ImmersiveView.swift */,
 				C58428FE2BB47BF400C23B2B /* Assets.xcassets */,
+				C584291A2BB4C8E200C23B2B /* O_logo_1024x1024.png */,
+				C58429182BB4C2E700C23B2B /* revmo.jpg */,
+				C58429162BB4C2B800C23B2B /* revmo_captions_cta_added (720p).mp4 */,
 				C58429032BB47BF400C23B2B /* Info.plist */,
 				C58429002BB47BF400C23B2B /* Preview Content */,
 			);
@@ -112,6 +122,13 @@
 				C584290C2BB47BF400C23B2B /* VisionPro1Tests.swift */,
 			);
 			path = VisionPro1Tests;
+			sourceTree = "<group>";
+		};
+		C584291D2BB72E1000C23B2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +200,8 @@
 				Base,
 			);
 			mainGroup = C58428E82BB47BF200C23B2B;
+			packageReferences = (
+			);
 			productRefGroup = C58428F22BB47BF200C23B2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,6 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C58429022BB47BF400C23B2B /* Preview Assets.xcassets in Resources */,
+				C58429192BB4C2E700C23B2B /* revmo.jpg in Resources */,
+				C584291B2BB4C8E200C23B2B /* O_logo_1024x1024.png in Resources */,
+				C58429172BB4C2B900C23B2B /* revmo_captions_cta_added (720p).mp4 in Resources */,
 				C58428FF2BB47BF400C23B2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +320,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = xros;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -354,6 +377,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = xros;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
